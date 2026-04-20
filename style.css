@@ -1,0 +1,11 @@
+.subscribe-button {
+    background-color: red;
+    height: 30px;
+    border: none;
+    width: 100px;
+    color: white;
+    border-radius: 8px;
+}
+.join-button {
+    background-color: blue;
+}
