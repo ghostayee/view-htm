@@ -15,4 +15,16 @@
     border-style: solid;
     color: blue;
     border-radius:1x;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.tweet-button {
+    background-color: rgb(12, 159, 245);
+    color: white;
+    height: 36px;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    width: 65px;
+
 }
