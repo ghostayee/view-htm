@@ -5,7 +5,14 @@
     width: 100px;
     color: white;
     border-radius: 8px;
+    margin-right: 10px;
 }
 .join-button {
     background-color: blue;
+    height: 30px;
+    background: white;
+    border-color: blue;
+    border-style: solid;
+    color: blue;
+    border-radius:1x;
 }
