@@ -12,15 +12,20 @@ h1 {
 .search {
   margin-bottom: 4px;
 }
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
 .channel-profile {
-  display: inline-block;
-  width: 50px;
   vertical-align: top;
+  background-color: grey;
 }
 .info-video {
-  display: inline-block;
-  width: 246px;
+  vertical-align: top;
+  background-color: grey;
 }
+
 
 .chamba-profile {
   width: 40px;
