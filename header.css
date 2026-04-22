@@ -1,0 +1,96 @@
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+.hum {
+  height: 25px;
+  vertical-align: top;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+.you {
+  height: 80px;
+  vertical-align: top;
+}
+
+.mid-section {
+  display: flex;
+  flex: 1;
+  margin-left: 36px;
+  margin-right: 36px;
+  max-width: 500px;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  flex: 1;
+  height: 25px;
+  border-color: rbg(192, 192, 192);
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: inset 1px 2px 8px rgb(10, 10, 10 0.15);
+  padding-left: 8px;
+}
+
+.search-bar::placeholder {
+  padding-left: 10px;
+  font-size: 16px;
+}
+.search-button {
+  background-color: rgb(238, 234, 234);
+  width: 60px;
+  height: 30px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: grey;
+  margin-left: -2px;
+  margin-right: 10px;
+}
+
+.search-icon {
+  width: 100%;
+  height: 20px;
+  border: none;
+}
+.sound-icon {
+  width: 100%;
+  height: 18px;
+}
+.voice-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 180px;
+  margin-right: 12px;
+}
+
+.upload-icon {
+  width: 35px;
+}
+
+.menu-icon {
+  width: 20px;
+}
+.notification-icon {
+  width: 25px;
+}
+.channel-image {
+  width: 30px;
+  height: 34px;
+  border-radius: 17px;
+}
