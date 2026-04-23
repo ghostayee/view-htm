@@ -1,8 +1,23 @@
+.heading {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+}
+
 .header {
   height: 55px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  right: 0;
+
+  background-color: white;
+  margin-top: -1px;
 }
 
 .left-section {
@@ -59,10 +74,15 @@
   border-color: rgb(192, 192, 192);
   margin-left: -2px;
   margin-right: 10px;
+  transition:
+    border-color 0.25s,
+    box-shadow 0.25s,
+    transform 0.25s;
 }
 .search-button:active {
   border-color: rgb(10, 147, 226);
   transform: scale(0.95);
+  box-shadow: 0px 2px 15px rgb(10, 147, 226);
 }
 
 .search-icon {
