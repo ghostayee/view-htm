@@ -33,11 +33,17 @@
   display: flex;
   flex: 1;
   height: 25px;
-  border-color: rbg(192, 192, 192);
+  border-color: rgb(192, 192, 192);
   border-style: solid;
   border-width: 2px;
   box-shadow: inset 1px 2px 8px rgb(10, 10, 10 0.15);
   padding-left: 8px;
+  width: 0;
+  outline: none;
+}
+.search-bar:focus {
+  border-color: rgb(10, 147, 226);
+  box-shadow: 0px 2px 15px rgb(10, 147, 226);
 }
 
 .search-bar::placeholder {
@@ -50,9 +56,13 @@
   height: 30px;
   border-width: 2px;
   border-style: solid;
-  border-color: grey;
+  border-color: rgb(192, 192, 192);
   margin-left: -2px;
   margin-right: 10px;
+}
+.search-button:active {
+  border-color: rgb(10, 147, 226);
+  transform: scale(0.95);
 }
 
 .search-icon {
@@ -77,6 +87,7 @@
   justify-content: space-between;
   width: 180px;
   margin-right: 12px;
+  flex-shrink: 0px;
 }
 
 .upload-icon {
@@ -84,10 +95,10 @@
 }
 
 .menu-icon {
-  width: 20px;
+  width: 15px;
 }
 .notification-icon {
-  width: 25px;
+  width: 18px;
 }
 .channel-image {
   width: 30px;
