@@ -15,9 +15,12 @@
   top: 80px;
   left: 0;
   right: 0;
-
   background-color: white;
   margin-top: -1px;
+  border-bottom:1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(223, 218, 218);
+  z-index: 100;
 }
 
 .left-section {
@@ -124,4 +127,40 @@
   width: 30px;
   height: 34px;
   border-radius: 17px;
+}
+.side-bar {
+  background-color: green;
+  position: fixed;
+  top: 134px;
+  left: 0px;
+  bottom: 0px;
+  width: 80px;
+}
+.close-icon{
+  font-size: 40px;
+  cursor: pointer;
+  position: absolute;
+  right: 3px;
+  top: -16px;
+}
+
+
+.video-thumbnail {
+  position: relative;
+}
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 15px;
+  right: 8px;
+  font-weight: 500px;
+  padding: 2px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.notification-temp {
+  background-color: yellow;
+  position: relative;
 }
